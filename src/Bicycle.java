@@ -1,6 +1,6 @@
 public class Bicycle extends WheeledVehicles {
-    public static final int WHEELS_COUNT = 2;
-    public Bicycle(String modelName) {
-        super(modelName,WHEELS_COUNT);
+
+    public Bicycle(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
     }
 }

@@ -1,6 +1,6 @@
 public abstract class WheeledVehicles implements Diagnostable {  // Колесные транспортные средства
     private  final String modelName;
-    private  final int wheelsCount;
+    private final int wheelsCount;
 
     public WheeledVehicles(String modelName, int wheelsCount) {
         this.modelName = modelName;
@@ -9,9 +9,10 @@ public abstract class WheeledVehicles implements Diagnostable {  // Колесн
        private void updateTyre(){
         System.out.println("Меняем покрышку");
     }
-    private void updateTyres(){
-        for (int i = 0; i < wheelsCount; ++i);
-        updateTyre();
+    private void updateTyres() {
+        for (int i = 0; i < wheelsCount; ++i) {
+            updateTyre();
+        }
     }
 
     @Override

@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         ServiceStation serviceStation = new ServiceStation();
-        Bicycle bicycle = new Bicycle("Santa Cruz");
-        Bicycle bicycle2 = new Bicycle("Schwinn Meridian");
+        Bicycle bicycle = new Bicycle("Santa Cruz", 2);
+        Bicycle bicycle2 = new Bicycle("Schwinn Meridian", 3);
 
-        Car car = new Car("Nissan Almera");
-        Car car2 = new Car("Toyota Land Cruiser");
+        Car car = new Car("Nissan Almera",4);
+        Car car2 = new Car("Toyota Land Cruiser",4);
 
         Truck truck = new Truck("Scania", 6);
         Truck truck2 = new Truck("Sitrack", 8);
